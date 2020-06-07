@@ -26,6 +26,7 @@ const App = () => {
 									className="primary-input early-access--primary-input"
 									type="email"
 									placeholder="Enter your email..."
+									aria-labelledby="Email Address"
 								/>
 
 								<button

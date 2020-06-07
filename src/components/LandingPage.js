@@ -40,9 +40,13 @@ const LandingPage = () => {
 										className="flex-2 m-r--medium primary-input"
 										type="email"
 										placeholder="Enter your email..."
+										aria-labelledby="Email Address"
 									/>
 
-									<button className="btn btn-get-started flex-1">
+									<button
+										type="submit"
+										className="btn btn-get-started flex-1"
+									>
 										Get Started
 									</button>
 								</div>
