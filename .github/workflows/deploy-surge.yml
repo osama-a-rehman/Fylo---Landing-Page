@@ -30,12 +30,12 @@ jobs:
         node-version: ${{ matrix.node }}
         
     - name: "Install yarn"
-      run: "npm install -g yarn" 
+      run: "npm install -g yarn"
     
     - name: "Install surge"
       run: "npm install -g surge"
     
-    - name: "yarn install & build":
+    - name: "yarn install & build"
       run: |
         yarn install
         yarn build
