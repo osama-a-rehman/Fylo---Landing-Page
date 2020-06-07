@@ -27,7 +27,7 @@ jobs:
     - name: "Install Node.js"
       uses: actions/setup-node@v1
       with:
-        node-version: ${{ matrix.node }}
+        node-version: 10
         
     - name: "Install yarn"
       run: "npm install -g yarn"
@@ -38,7 +38,7 @@ jobs:
     - name: "yarn install & build"
       run: |
         yarn install
-        yarn build
+        CI=false yarn build
         
     - name: "Deploy to surge"
       run: |
