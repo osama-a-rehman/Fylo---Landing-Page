@@ -1,0 +1,51 @@
+.testimonial--container {
+	padding: 1.5rem 2rem;
+	background-color: white;
+	border-radius: 0.75rem;
+	box-shadow: 0 1px 1rem hsl(240, 75%, 98%);
+	width: 100%;
+}
+
+.testimonial--quotes-image {
+	max-height: 0.75rem;
+}
+
+.testimonial--testimonial-paragraph {
+	color: hsl(238, 22%, 44%);
+	line-height: 1.5rem;
+}
+
+.testimonial--person-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.testimonial--person-image-container {
+	max-width: 2.5rem;
+}
+
+.testimonial--person-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.testimonial--person-info-container {
+	margin-left: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.testimonial--person-name {
+	font-size: 1rem;
+	font-weight: bold;
+	color: hsl(238, 22%, 44%);
+	margin-bottom: 0.25rem;
+}
+
+.testimonial--person-info {
+	font-size: 0.75rem;
+	color: hsl(238, 22%, 44%);
+}

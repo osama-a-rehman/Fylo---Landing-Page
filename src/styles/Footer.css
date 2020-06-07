@@ -1,0 +1,153 @@
+.footer--container {
+	background-color: hsl(243, 87%, 12%);
+	padding: 0 2rem;
+	padding-top: 7.5rem;
+	padding-bottom: 5rem;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.footer--main-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer--info-and-links-container {
+	display: flex;
+	flex-direction: row;
+	padding-top: 3rem;
+}
+
+.footer--info-section-col {
+	flex: 1;
+}
+
+.footer--links-col {
+	flex: 1.5;
+}
+
+.footer--info-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer--info-col {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding-right: 2rem;
+}
+
+.footer--info-paragraph {
+	margin-left: 1rem;
+	font-size: 0.8rem;
+	max-width: 25rem;
+	line-height: 1.25rem;
+}
+
+.footer--info-icon-image {
+	max-width: 1rem;
+	object-fit: contain;
+	margin-top: 0.85rem;
+}
+
+.footer--links-col {
+	display: flex;
+	flex-direction: row;
+}
+
+.footer--links-sub-col {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.footer--link {
+	color: white;
+	text-decoration: none;
+	font-size: 0.9rem;
+}
+
+.footer--link:not(:first-child) {
+	margin-top: 1.5rem;
+}
+
+.footer--social-icons-col {
+	flex-direction: row;
+}
+
+.footer--copy-right-container {
+	margin-top: 2rem;
+}
+
+.footer--copy-right-container p {
+	font-size: 0.9rem;
+	text-align: right;
+}
+
+.circle-icon {
+	border: 1px solid white;
+	padding: 0.25rem;
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50px;
+	text-align: center;
+	line-height: 1.4rem;
+}
+
+.m-l--medium {
+	margin-left: 1rem;
+}
+
+/* Laptop: 1024px */
+@media only screen and (max-width: 1024px) {
+}
+
+/* Tablet: 768px */
+@media only screen and (max-width: 768px) {
+	.footer--container {
+		padding-top: 10rem;
+		padding-bottom: 3rem;
+	}
+
+	.footer--info-and-links-container {
+		flex-direction: column;
+		padding-top: 1.5rem;
+	}
+
+	.footer--links-col {
+		flex-direction: column;
+		margin-top: 1.5rem;
+	}
+
+	.footer--links-sub-col {
+		margin-top: 1.5rem;
+	}
+
+	.footer--social-icons-col {
+		margin-top: 3rem;
+		justify-content: center;
+	}
+
+	.footer--copy-right-container p {
+		text-align: center;
+		font-size: 0.9rem;
+	}
+}
+
+/* Mobile-Large: 425px */
+@media only screen and (max-width: 425px) {
+}
+
+/* Mobile-Medium: 375px */
+@media only screen and (max-width: 375px) {
+	.footer--copy-right-container p {
+		text-align: center;
+		font-size: 0.75rem;
+	}
+}
+
+/* Mobile-Small: 320px */
+@media only screen and (max-width: 320px) {
+}

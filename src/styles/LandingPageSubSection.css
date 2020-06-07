@@ -1,0 +1,119 @@
+.landing-page-sub-section--container-wrapper {
+	display: flex;
+	justify-content: center;
+	background-color: hsl(240, 75%, 98%);
+	position: relative;
+	width: 100%;
+}
+
+.landing-page-sub-section--container-wrapper::before {
+	content: '';
+	display: block;
+	position: absolute;
+	transform: translateY(-50%);
+	width: 100%;
+	overflow: hidden;
+	height: 12.5rem;
+	background: hsl(240, 75%, 98%);
+	border-radius: 50%;
+}
+
+.landing-page-sub-section--container {
+	padding: 4rem 0;
+	display: flex;
+	flex-direction: row-reverse;
+	z-index: 2;
+}
+
+.landing-page-sub-section--col {
+	padding: 2rem;
+	flex: 1;
+}
+
+.landing-page-sub-section--info-col {
+	flex: 1.25;
+}
+
+.landing-page-sub-section--illustration {
+	width: 100%;
+}
+
+.landing-page-sub-section--testimonial-container {
+	max-width: 25rem;
+}
+
+/* Laptop: 1024px */
+@media only screen and (max-width: 1024px) {
+	.landing-page-sub-section--container {
+		flex-direction: column;
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+	}
+
+	.landing-page-sub-section--image-container {
+		text-align: center;
+	}
+
+	.landing-page-sub-section--illustration {
+		height: 50%;
+		width: 50%;
+	}
+
+	.landing-page-sub-section--testimonial-wrapper {
+		display: flex;
+		justify-content: center;
+	}
+
+	.landing-page-sub-section--testimonial-container {
+		max-width: 90%;
+		max-width: 30rem;
+	}
+
+	.landing-page-sub-section--primary-link-container {
+		text-align: center;
+	}
+
+	.landing-page-sub-section--container-wrapper {
+		margin-top: 10rem;
+	}
+
+	.landing-page-sub-section--container-wrapper::before {
+		height: 10rem;
+	}
+
+	.landing-page-sub-section--container {
+		padding-top: 0;
+	}
+}
+
+/* Tablet: 768px */
+@media only screen and (max-width: 768px) {
+	.landing-page-sub-section--container {
+		padding-bottom: 4rem;
+	}
+
+	.landing-page-sub-section--primary-info {
+		text-align: left;
+	}
+
+	.landing-page-sub-section--illustration {
+		height: 80%;
+		width: 80%;
+	}
+}
+
+/* Mobile-Large: 425px */
+@media only screen and (max-width: 425px) {
+	.landing-page-sub-section--illustration {
+		height: 100%;
+		width: 100%;
+	}
+}
+
+/* Mobile-Medium: 375px */
+@media only screen and (max-width: 375px) {
+}
+
+/* Mobile-Small: 320px */
+@media only screen and (max-width: 320px) {
+}
