@@ -15,21 +15,21 @@ const NavBar = () => {
 
 				<ul className="nav-bar--links-list">
 					<li className="nav-bar--links-list-item">
-						<a href="#" className="nav-bar--links-list-item-link">
+						<button className="btn--link nav-bar--links-list-item-link">
 							Features
-						</a>
+						</button>
 					</li>
 
 					<li className="nav-bar--links-list-item">
-						<a href="#" className="nav-bar--links-list-item-link">
+						<button className="btn--link nav-bar--links-list-item-link">
 							Team
-						</a>
+						</button>
 					</li>
 
 					<li className="nav-bar--links-list-item">
-						<a href="#" className="nav-bar--links-list-item-link">
+						<button className="btn--link nav-bar--links-list-item-link">
 							Sign in
-						</a>
+						</button>
 					</li>
 				</ul>
 			</div>

@@ -43,13 +43,13 @@ const LandingPageSubSection = () => {
 					</p>
 
 					<div className="landing-page-sub-section--primary-link-container">
-						<a href="#" className="primary-link ">
+						<button className="btn--link primary-link ">
 							See how Fylo works{' '}
 							<i
 								class="fa fa-arrow-circle-right"
 								aria-hidden="true"
 							></i>
-						</a>
+						</button>
 					</div>
 
 					<div className="landing-page-sub-section--testimonial-wrapper">

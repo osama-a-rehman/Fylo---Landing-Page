@@ -28,12 +28,12 @@ const App = () => {
 									placeholder="Enter your email..."
 								/>
 
-								<a
-									href="#"
+								<button
+									type="submit"
 									className="btn btn-get-started early-access--btn-get-started"
 								>
 									Get Started For Free
-								</a>
+								</button>
 							</div>
 						</form>
 					</div>

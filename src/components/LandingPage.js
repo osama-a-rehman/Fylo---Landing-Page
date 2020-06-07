@@ -42,12 +42,9 @@ const LandingPage = () => {
 										placeholder="Enter your email..."
 									/>
 
-									<a
-										href="#"
-										className="btn btn-get-started flex-1"
-									>
+									<button className="btn btn-get-started flex-1">
 										Get Started
-									</a>
+									</button>
 								</div>
 							</form>
 						</div>

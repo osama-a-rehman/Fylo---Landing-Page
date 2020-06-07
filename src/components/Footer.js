@@ -44,30 +44,30 @@ const Footer = () => {
 
 					<div className="footer--links-col">
 						<div className="footer--links-sub-col">
-							<a href="#" className="footer--link">
+							<button className="btn--link footer--link">
 								About us
-							</a>
+							</button>
 
-							<a href="#" className="footer--link">
+							<button className="btn--link footer--link">
 								What we do
-							</a>
+							</button>
 
-							<a href="#" className="footer--link">
+							<button className="btn--link footer--link">
 								FAQ
-							</a>
+							</button>
 						</div>
 						<div className="footer--links-sub-col">
-							<a href="#" className="footer--link">
+							<button className="btn--link footer--link">
 								Career
-							</a>
+							</button>
 
-							<a href="#" className="footer--link">
+							<button className="btn--link footer--link">
 								Blog
-							</a>
+							</button>
 
-							<a href="#" className="footer--link">
+							<button className="btn--link footer--link">
 								Contact us
-							</a>
+							</button>
 						</div>
 						<div className="footer--links-sub-col footer--social-icons-col">
 							<i
