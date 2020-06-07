@@ -95,4 +95,11 @@
 
 /* Mobile-Small: 320px */
 @media only screen and (max-width: 320px) {
+	.nav-bar--links-list-item {
+		margin-right: 0.5rem;
+	}
+
+	.nav-bar--links-list-item:last-child {
+		margin-right: 0;
+	}
 }

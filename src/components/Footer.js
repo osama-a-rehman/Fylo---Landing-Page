@@ -71,17 +71,17 @@ const Footer = () => {
 						</div>
 						<div className="footer--links-sub-col footer--social-icons-col">
 							<i
-								class="fa fa-facebook circle-icon"
+								class="fa fa-facebook circle-icon btn--link"
 								aria-hidden="true"
 							></i>
 
 							<i
-								class="fa fa-twitter circle-icon m-l--medium"
+								class="fa fa-twitter circle-icon m-l--medium btn--link"
 								aria-hidden="true"
 							></i>
 
 							<i
-								class="fa fa-instagram circle-icon m-l--medium"
+								class="fa fa-instagram circle-icon m-l--medium btn--link"
 								aria-hidden="true"
 							></i>
 						</div>
